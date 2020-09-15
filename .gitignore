@@ -27,3 +27,44 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+### Logs and Databases ###
+*.log
+*.sql
+*.sqlite
+
+### Compiled Source ###
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+### Compressed Packages ###
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
