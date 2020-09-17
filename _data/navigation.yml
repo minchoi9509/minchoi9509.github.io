@@ -3,4 +3,6 @@ main:
   - title: "ABOUT"
     url: /about/
   - title: "CATEGORY"
-    url: /category/
+    url: /categories/
+  - title: "TAGS"
+    url: /tags/
