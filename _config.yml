@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "PROGRAMINGU"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "밍구"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://minchoi9509.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name             : "밍구"
-  avatar           : "/assets/images/min.jpg"
-  bio              : "느려도 꾸준히 공부하는 초보 개발자"
-  location         : "대한민국, 서울"
+  # avatar           : "/assets/images/min.jpg"
+  bio              : "어금니는 영어로 몰라"
+  location         : "Somewhere"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
