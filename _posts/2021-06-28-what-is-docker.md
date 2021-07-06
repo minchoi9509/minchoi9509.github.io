@@ -85,6 +85,34 @@ services:
   redis:
     image: "redis:alpine"
 ```
+
+* 간단한 커맨드
+``` shell
+# docker-compose.yml에 정의ㅡ되어 있는 모든 서비스 컨테이너를 실행시키기 위해서 사용
+# -d 옵션을 통해 백그라운드에서 컨테이너를 띄움 -- 옵션을 사용하지 않으면 컨테이너 로그가 모두 출력됨
+docker-compose up -d
+
+# 경로 지정해주고 싶은 경우 -f 옵션 사용
+docker-compose -f docker-compose-local.yml up 
+
+# 모든 서비스 컨테이너를 한번에 정지 시킴
+docker-compose down
+
+# 특정 서비스 컨테이너(ex: container_name) 올리기 위해/정지하기 위해서 사용
+docker-compose start container_name
+docker-compose stop containeer_name
+
+# docker-compose.ymml에 정의되어 있는 모든 서비스 컨테이너 목록을 조회 할 때 사용
+docker-compose ps
+
+# 로그 확인 시 사용 -f 옵션을 붙여 실시간 로그 확인
+docker-compose logs -f web
+
+# docker compose 설정 확인 시 사용 -f 옵션을 붙여 여러개의 docker compose 파일이 있을 때 전체 설정 확인하기 위해서 사용
+docker-compose config -f
+```
+
+
 * Dockerfile 이란?
 	* 컨테이너에 설치해야하는 패키지, 소스코드, 명령어, 환경변수 설정 등을 기록한 하나의 파일
 	* `Dockerfile` 을 빌드하면 자동으로 도커 이미지가 생성하게 됨
