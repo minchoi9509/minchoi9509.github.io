@@ -50,6 +50,7 @@ getData(function(data) {
 	* Rejected(실패) : 비동기 처리가 실패하거나 오류가 발생한 상태
  
 * Promise API를 사용한 구조 
+
 ``` javascript
 function geteData(callback) {
 	// new Promise() 추가 -- 대기 상태
@@ -78,6 +79,7 @@ getData().then().catch(function(err) {
 ## async와 await
 
 * 비동기 처리 패턴 중 가장 최근에 나온 문법
+
 ``` javascript
 async function getData() {
 	const user = await getUserData();
